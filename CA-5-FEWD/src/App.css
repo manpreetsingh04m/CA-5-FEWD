@@ -124,7 +124,6 @@ background: linear-gradient(rgba(117, 75, 174, 0.68), rgba(117, 88, 158, 0.68));
   gap: 4vmin;
   padding: 3vmin;
   border-radius: 10px;
-  /* background-color: rgb(251, 251, 201); */
   box-shadow: 0px 1px 8px rgb(89, 84, 84);
 }
 .book > img {
@@ -180,7 +179,7 @@ form > div {
 }
 
 form input {
-  background: rgba(150, 107, 202, 0.471);
+  background: rgba(197, 193, 202, 0.471);
   padding: 1vmin;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -194,7 +193,7 @@ form input:focus {
 }
 
 form input[type="submit"] {
-  background-color: rgb(131, 111, 213);
+  background-color: rgb(57, 51, 80);
   color: white;
   width: 50%;
   align-self: center;
@@ -205,7 +204,7 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   width: 60%;
-  background-color: rgb(167, 52, 213);
+  background-color: rgb(205, 181, 214);
 }
 
 .success {
@@ -226,7 +225,7 @@ form input[type="submit"]:hover {
 }
 
 legend {
-  background-color: rgb(149, 88, 209);
+  background-color: rgb(109, 95, 123);
   color: white;
   padding: 1vmin;
   border-radius: 5px;
