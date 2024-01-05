@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 
 import { useDispatch, useSelector } from "react-redux";
-import { fetchData } from "../utils/Redux/action";
+import { fetchData } from "../utils/redux/action";
 
 export default function Books() {
   const dispatch = useDispatch();

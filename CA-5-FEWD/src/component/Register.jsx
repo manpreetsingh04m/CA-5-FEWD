@@ -3,7 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { useForm } from "react-hook-form";
 import "react-toastify/dist/ReactToastify.css";
 import {useSelector,useDispatch} from 'react-redux'
-import { storeFormData } from "../utils/Redux/action";
+import { storeFormData } from "../utils/redux/action";
 import {Link} from 'react-router-dom'
 export default function Register() {
   const {
